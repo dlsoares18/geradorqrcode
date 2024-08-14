@@ -1,5 +1,8 @@
 .container{
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .input {
   margin: 20px;
@@ -16,7 +19,4 @@
   font-size: 15px;
   color: white;
   border-radius: 8px;
-}
-.qrcode{
-  text-align: center;
 }
