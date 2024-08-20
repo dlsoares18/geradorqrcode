@@ -36,6 +36,7 @@ function App() {
         onChange={(e) => handleClique(e)}
       />
       <a className='button' href={qrLink} download={`qrcode.png`}>Baixar QRCode</a>
+      <h6>Developed by <a href='https://danielsoares.top/geraqrcode_home'>Daniel Soares</a></h6>
     </div>
   );
 }
